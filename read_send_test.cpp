@@ -4,12 +4,13 @@
 #include <vector>
 #include <pthread.h>
 #include <unistd.h>
-#include <list>
+//#include <list>
 #include <semaphore.h>
+#include <string>
+//#include <map>
+
 #include "ngx_lockmutex.h"
 #include "ngx_lockspin.h"
-#include <string>
-#include <map>
 #include "tzmalloc.h"
 #include "ngx_c_crc32.h"
 
