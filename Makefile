@@ -4,7 +4,7 @@
 #	rm app
 
 all:
-	g++ read_send_test.cpp ngx_c_crc32.cpp -o t7 -lpthread -std=c++11 #-ljemalloc -g
+	g++ read_send_test.cpp ngx_c_crc32.cpp -o t4 -lpthread -std=c++11 -ltcmalloc -g
 clean:
 	rm app
 
